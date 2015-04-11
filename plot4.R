@@ -1,5 +1,5 @@
 plot4<-function(){
-        #load Houshold Power Consumption data and saces it into hpc dataframe
+        #loads Houshold Power Consumption data and saves it into hpc dataframe
         hpc<-read.table("household_power_consumption.txt", header=TRUE, na.strings="?", sep=";")
         
         #transoforms Date column into date format using "as Date" function
